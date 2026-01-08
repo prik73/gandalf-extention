@@ -117,9 +117,8 @@ For California residents:
 
 If you have questions about this Privacy Policy or our privacy practices:
 
-- **Email**: [your-email@example.com]
+- **Email**: prinovac@gmail.com
 - **GitHub**: https://github.com/prik73/gandalf-extention
-- **Website**: [your-website.com]
 
 ## Consent
 
