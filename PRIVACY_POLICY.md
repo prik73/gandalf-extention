@@ -118,7 +118,7 @@ For California residents:
 If you have questions about this Privacy Policy or our privacy practices:
 
 - **Email**: [your-email@example.com]
-- **GitHub**: [https://github.com/your-username/gandalf]
+- **GitHub**: https://github.com/prik73/gandalf-extention
 - **Website**: [your-website.com]
 
 ## Consent
