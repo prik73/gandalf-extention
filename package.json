@@ -1,0 +1,40 @@
+{
+  "name": "gandalf",
+  "version": "1.0.0",
+  "description": "Browser history recap with meaningful insights",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && npm run copy-files",
+    "copy-files": "cp public/manifest.json dist/ && cp -r public/icons dist/ 2>/dev/null || mkdir -p dist/icons",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "chrome-extension",
+    "browser-history",
+    "analytics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.24.0",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.3",
+    "tailwind-merge": "^3.4.0",
+    "zustand": "^5.0.9"
+  }
+}
